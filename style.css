@@ -1,0 +1,131 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background: #F3F5FC;
+}
+.container{
+  margin: auto;
+  width: 1440px;
+  height: 1024px;
+  top:622px;
+  gap: 0px;
+  opacity: 0px;
+  padding: 5px;
+  position: relative;
+  background: #F3F5FC;
+}
+.logo{
+  width: 100%;
+  float: left;
+}
+.left{
+  float: left;
+  width: 70%;
+  height: 70%;
+  border-radius: 25px;
+}
+.right{
+  position: absolute;
+  top: 40px;
+  right: 2%;
+  width: 400px;
+  height: 944px;
+  border-radius: 25px;
+  background: #04090c;
+  overflow: auto;
+}
+.left-button{
+  float: left;
+  width: 70%;
+  height: auto;
+  border-radius: 25px;
+}
+.logoImg{
+  float: inherit;
+  margin-top: 40px;
+  margin-left: 1px;
+  width: 15%;
+  height: 15%;
+}
+.title{
+  float: inherit;
+  margin-top: 4%;
+  margin-left: 1%;
+  font-family: Georgia;
+  font-size: 50px;
+}
+.text-imput{
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: 80%;
+  color: black;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: #F3F5FC;
+  resize: none;
+}
+#candadoImg{
+  width: 90%;
+  height: auto%;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+#texto1{
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+}
+#texto2{
+  float: left;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  height: 40%;
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: #04090c;
+  resize: none;
+}
+.centrado{
+  text-align: center;
+}
+.aviso{
+  margin-left: 10%;
+}
+#btnEncriptar{
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 20px;
+  border: 1px;
+  margin-left: 15%;
+  color: #F3F5FC;
+  background: #123b5f;
+}
+#btnDesencriptar{
+  padding: 24px;
+  margin-left: 10%;
+  width: 30%;
+  height: 60%;
+  border-radius: 20px;
+  border: 1px;
+  color: #123b5f;
+  background: #BBC7D1;
+}
+#btnCopiar{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 3% 0;
+  width: 70%;
+  border-radius: 20px;
+  border: 1px;
+  background: #4fa4af;
+  display: none;
+}
